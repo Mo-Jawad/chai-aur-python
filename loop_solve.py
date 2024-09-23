@@ -20,3 +20,10 @@ for i in range(1, n+1):
 print("sum of even number: ", sum_even)
 
 # Loop problem-3: Multiplication Table Printer => solution
+
+numb = 4
+
+for l in range(1, 11):
+    if l == 5:
+        continue
+    print(numb, "*", l, "=", numb*l)
