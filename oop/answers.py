@@ -4,6 +4,15 @@ class players:
         self.name = name
     def together(self):
         return f"{self.club}: {self.name}"
+    
+class contact_year(players):
+    def __init__(self, club, name, contact):
+        super().__init__(club, name)
+        self.contact = contact
+
+bundesliga = contact_year("bayern", "kane", "3 years")
+print(bundesliga.contact)
+print(bundesliga.together())
 
 my_Player = players("Barca", "Pedri")
 
