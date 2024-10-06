@@ -11,21 +11,21 @@ Problem: Create a players class with attributes like club and name. Then create 
 <summary>
 2. Class Method and Self
 </summary>
-Problem: Add a method to the Car class that displays the full name of the car (brand and model).
+Problem: Add a method to the players class that displays the full name of the players (club and name).
 </details>
 
 <details>
 <summary>
 3. Inheritance
 </summary>
-Problem: Create an ElectricCar class that inherits from the Car class and has an additional attribute battery_size.
+Problem: Create an contact Year class that inherits from the Car class and has an additional attribute contact.
 </details>
 
 <details>
 <summary>
 4. Encapsulation
 </summary>
-Problem: Modify the Car class to encapsulate the brand attribute, making it private, and provide a getter method for it.
+Problem: Modify the players class to encapsulate the club attribute, making it private, and provide a getter method for it.
 </details>
 
 <details>
