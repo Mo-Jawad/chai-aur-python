@@ -9,19 +9,29 @@ class players:
     def get_club(self):
         return self.__club + "wow"
     
+    def against_barca(self):
+        return "Brilliant"
+    
 class contact_year(players):
     def __init__(self, club, name, contact):
         super().__init__(club, name)
         self.contact = contact
 
+    def against_barca(self):
+        return "poor"
+
 bundesliga = contact_year("bayern", "kane", "3 years")
 print(bundesliga.contact)
+
+print(bundesliga.against_barca())
 # print(bundesliga.club)
 print(bundesliga.get_club())
 
 print(bundesliga.together())
 
 my_Player = players("Barca", "Pedri")
+
+print(my_Player.against_barca())
 
 print(my_Player.get_club())
 print(my_Player.together())
